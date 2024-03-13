@@ -26,8 +26,6 @@ class Ship {
 
 export default Ship
 
-
-
 hit() {
         this.hits++;
         if (this.hits >= this.length) {
@@ -38,7 +36,6 @@ hit() {
         }
     }
 }
-*/
 
 // notes
 hit() {
@@ -50,6 +47,7 @@ hit() {
       console.log(The ${this.name} has been hit!);
   }
 }
+*/
 
 /* function Player(name, marker) {
   this.name = name;
